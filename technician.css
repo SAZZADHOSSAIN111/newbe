@@ -6,6 +6,7 @@
 
 body{
     height: 100vh;
+    background-color: #212428;
 }
 
 .hero{
@@ -26,8 +27,9 @@ body{
     transform: translate(12.5%, -40%);
     border-radius: 15px;
     box-shadow: 8px 8px 25px  rgb(0, 0, 0);
-    background-image: linear-gradient(-45deg, rgba(212, 212, 212, 0.11), #22262A );   
+    /* background-image: linear-gradient(-45deg, rgba(212, 212, 212, 0.11), #22262A );    */
     padding:30px;
+    display: flex;
 }
 
 .profileleft{
@@ -90,7 +92,7 @@ body{
    border-radius: 5px;
    background-image: linear-gradient( -45deg, rgba(82, 82, 82, 0.11), #22262A );
    box-shadow: -5px -5px 15px rgba(94, 94, 94, 0.342); 
-   /* box-shadow: 5px 5px 10px rgb(0, 0, 0);  */
+   box-shadow: 5px 5px 10px rgb(0, 0, 0); 
 }
 
 .ibackground:hover{
@@ -115,4 +117,33 @@ body{
 
 .linkedin img {
  height: 25px;
+}
+
+.vl{
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
+.profileright{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin:0 0 0 40px;
+}
+
+.head{
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    color: rgb(185,195,210);
+
+}
+
+.title{
+    color: gray;
 }
