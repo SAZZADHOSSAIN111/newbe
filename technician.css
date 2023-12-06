@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+
 body{
     height: 100vh;
     background-color: #212428;
@@ -144,21 +146,27 @@ body{
 .desc{
     padding:0 10% 0 10% ;
     /* background-color: red; */
-    height: 60%;
+    height: auto;
     width: 100%;
     position: relative;
+    display: flex;
 }
 
 .hidden{
     height: 270px;
 }
 
+/* .stick{
+    position: sticky !important;
+    top: 0;
+} */
+
 .leftnav{
     position: absolute;
     background-color: #202327;
     height: auto;
     width: 15%;
-    margin-top: 1.5%;
+    /* margin-top: 1.5%; */
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -166,11 +174,8 @@ body{
     text-align: center;
     padding: 1% 0;
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.103);
-
-}
-
-ul{
-
+    /* position: sticky;
+    top: 10%; */
 }
 
 li{
@@ -180,11 +185,12 @@ li{
 }
 
 li:hover{
-    background-color:rgb(255,1,79) ;
+    background-color:rgb(255,1,79);
+    transition-duration: .3s;
 }
 
 
-a{
+.aa{
     color: white;
     text-decoration:none;
     font-family: Arial, Helvetica, sans-serif;
@@ -192,4 +198,106 @@ a{
     display: inline-block;
     padding: 45px 60px;
     border-radius: 10px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.aa:focus{
+    color: white;
+    background-color:rgb(255,1,79);
+}
+
+.rightdescription{
+    display: grid;
+    grid-template-columns:  40% 60% .;
+    height:auto;
+    width:85%;
+    background-color:rgb(31,34,38);
+    margin-left:22%;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.103);
+}
+
+.fi{
+    display: flex;
+    margin: 5% 3% 5% 3%;
+    width: auto;
+    /* background-color: red; */
+    height: auto;
+    font-family: Montserrat;
+}
+
+.about-desc{
+    height: auto;
+    width: auto;
+    /* background-color: green; */
+    margin-left: 6%;
+}
+
+.marque{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.button1{
+    padding: 20px 35px;
+    color: red;
+    background-color:rgb(31,33,37);
+    border: none;
+    border-radius: 5px; 
+    box-shadow: -8px -8px 20px rgba(255, 255, 255, 0.144);
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.What{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.box{
+    border: 1px solid black;
+    height: auto;
+    width: 50%;
+    margin: 5% 3% 5% 3%;
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+}
+
+.boxdad{
+    display: flex;
+}
+
+.weblink{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.line{
+     color: 2px solid rgb(255, 255, 255);
+     margin-top: 2%;
+     height: 10px;
+     width: 100%;
+     background-color: red;
+}
+
+.client{
+    margin: 5% 3% 5% 3%;
+}
+
+.client-detail{
+    height: auto;
+    width: 25%;
+    background-color: #202327;
+    box-shadow: -8px -8px 20px rgba(255, 255, 255, 0.144);
 }
