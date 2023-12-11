@@ -104,15 +104,15 @@ body{
 }
 
 .facebook img {
- height: 30px;
+    height: 30px;
 }
 
 .twitter img {
- height: 25px;
+    height: 25px;
 }
 
 .linkedin img {
- height: 25px;
+    height: 25px;
 }
 
 .vl{
@@ -209,7 +209,8 @@ li:hover{
 
 .rightdescription{
     display: grid;
-    grid-template-columns:  40% 60% .;
+    /* grid-template-columns:  auto; */
+    /* grid-template-rows: auto auto auto; */
     height:auto;
     width:85%;
     background-color:rgb(31,34,38);
@@ -289,15 +290,10 @@ li:hover{
      height: 10px;
      width: 100%;
      background-color: red;
-}
+} 
 
-.client{
+.clients{
     margin: 5% 3% 5% 3%;
-}
 
-.client-detail{
-    height: auto;
-    width: 25%;
-    background-color: #202327;
-    box-shadow: -8px -8px 20px rgba(255, 255, 255, 0.144);
+
 }
