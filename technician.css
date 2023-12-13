@@ -287,13 +287,37 @@ li:hover{
 .line{
      color: 2px solid rgb(255, 255, 255);
      margin-top: 2%;
-     height: 10px;
+     height: 2px;
      width: 100%;
-     background-color: red;
+     background-color: rgb(0, 0, 0);
 } 
 
 .clients{
     margin: 5% 3% 5% 3%;
-
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+ 
+    
 }
+
+.clients-detail{
+    border: 2px solid black;
+    display: block;
+    justify-content: center;
+}
+
+.imgcen{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
